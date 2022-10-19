@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&family=Montserrat:wght@400;500;600;700;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat' ,sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+$orange : #FD7900;
+.orange{
+  color:#FD7900 ;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header{
+  padding: 0 140px 0 129px;
+  .header__menu{
+    margin-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #4C4C4C;
+    white-space: nowrap;
+    padding: 17px 68px 16px 70px;
+    column-gap: 120px;
+    display: flex;
+    border: 2px solid #F0F0F0;
+    border-radius: 25px;
+  }
+  .header__logo{
+    margin: 0 62px 0 75px;
+  }
+  .header__nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .header__map{
+    column-gap: 15px;
+    align-items: center;
+    display: flex;
+    .header__map-info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      .header__map-title{
+        white-space: nowrap;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #4D4D4D;
+      }
+      .header__map-link{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FD7900;
+        text-decoration: underline dashed;
+        text-underline-offset:10px ;
+
+      }
+    }
+  }
+  .header__right{
+    column-gap: 20px;
+    align-items: center;
+    display: flex;
+    &_mobile{
+      display: flex;
+      column-gap: 22px;
+    }
+    .header__question{
+      white-space: nowrap;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #4C4C4C;
+    }
+    .whatsapp{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+    }
+    .header__whatsapp{
+      text-align: right;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      color: #000000;
+    }
+    .header__number{
+      white-space: nowrap;
+      font-family: 'Montserrat' ,sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color: #000000;
+    }
+    .header__time{
+      text-align: right;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #4C4C4C;
+    }
+  }
+}
+.begin{
+  padding: 155px 600px 174px 140px;
+  background: url("../images/beginbg.png")
+center/cover no-repeat;
+}
+@import "work";
+@import "gallery";
+@import "price";
+@import "example";
+@import "overlay";
+@import 'header';

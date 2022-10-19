@@ -1,0 +1,24 @@
+.gallery {
+  padding: 90px 0;
+  background: #353535;
+}
+.gallery__row {
+  display: flex;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+.gallery__images {
+  width: calc(50% - 20px);
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.gallery__info {
+  width: calc(50% - 20px);
+}
+.gallery__img-2 {
+  width: calc(66.66666% - 5px);
+}
+.gallery__img-1 {
+  width: calc(33.33333% - 10px);
+}
